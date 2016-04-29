@@ -216,15 +216,92 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="DevExpress\" />
-    <Folder Include="Libs\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="DevExpress\DevExpress.BonusSkins.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.Charts.Designer.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.Charts.v15.1.Core.dll" />
+    <Content Include="DevExpress\DevExpress.CodeConverter.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.CodeParser.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.Data.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.Data.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.DataAccess.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.DataAccess.v15.1.UI.dll" />
+    <Content Include="DevExpress\DevExpress.DataAccess.v15.1.UI.xml" />
+    <Content Include="DevExpress\DevExpress.DataAccess.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.Docs.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.Docs.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.Images.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.Office.v15.1.Core.dll" />
+    <Content Include="DevExpress\DevExpress.Office.v15.1.Core.xml" />
+    <Content Include="DevExpress\DevExpress.Pdf.v15.1.Core.dll" />
+    <Content Include="DevExpress\DevExpress.Pdf.v15.1.Core.xml" />
+    <Content Include="DevExpress\DevExpress.PivotGrid.v15.1.Core.dll" />
+    <Content Include="DevExpress\DevExpress.PivotGrid.v15.1.Core.xml" />
+    <Content Include="DevExpress\DevExpress.Printing.v15.1.Core.dll" />
+    <Content Include="DevExpress\DevExpress.Printing.v15.1.Core.xml" />
+    <Content Include="DevExpress\DevExpress.RichEdit.v15.1.Core.dll" />
+    <Content Include="DevExpress\DevExpress.RichEdit.v15.1.Core.xml" />
+    <Content Include="DevExpress\DevExpress.SpellChecker.v15.1.Core.dll" />
+    <Content Include="DevExpress\DevExpress.SpellChecker.v15.1.Core.xml" />
+    <Content Include="DevExpress\DevExpress.Spreadsheet.v15.1.Core.dll" />
+    <Content Include="DevExpress\DevExpress.Spreadsheet.v15.1.Core.xml" />
+    <Content Include="DevExpress\DevExpress.Utils.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.Utils.v15.1.UI.dll" />
+    <Content Include="DevExpress\DevExpress.Utils.v15.1.UI.xml" />
+    <Content Include="DevExpress\DevExpress.Utils.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraBars.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraBars.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraCharts.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraCharts.v15.1.Extensions.dll" />
+    <Content Include="DevExpress\DevExpress.XtraCharts.v15.1.UI.dll" />
+    <Content Include="DevExpress\DevExpress.XtraCharts.v15.1.UI.xml" />
+    <Content Include="DevExpress\DevExpress.XtraCharts.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraEditors.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraEditors.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraGrid.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraGrid.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraMap.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraMap.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraNavBar.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraNavBar.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraPdfViewer.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraPdfViewer.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraPrinting.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraPrinting.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraReports.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraReports.v15.1.Extensions.dll" />
+    <Content Include="DevExpress\DevExpress.XtraReports.v15.1.Extensions.xml" />
+    <Content Include="DevExpress\DevExpress.XtraReports.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraRichEdit.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraRichEdit.v15.1.Extensions.dll" />
+    <Content Include="DevExpress\DevExpress.XtraRichEdit.v15.1.Extensions.xml" />
+    <Content Include="DevExpress\DevExpress.XtraRichEdit.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraSpellChecker.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraSpellChecker.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraSpreadsheet.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraSpreadsheet.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraVerticalGrid.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraVerticalGrid.v15.1.xml" />
+    <Content Include="DevExpress\DevExpress.XtraWizard.v15.1.dll" />
+    <Content Include="DevExpress\DevExpress.XtraWizard.v15.1.xml" />
     <Content Include="document.ico" />
+    <Content Include="Libs\Antlr4.Runtime.net40.dll" />
+    <Content Include="Libs\Antlr4.Runtime.net40.xml" />
+    <Content Include="Libs\BLToolkit.4.dll" />
+    <Content Include="Libs\IrbisUI.dll" />
+    <Content Include="Libs\IrbisUI.pdb" />
+    <Content Include="Libs\IrbisUI.xml" />
+    <Content Include="Libs\JetBrains.Annotations.dll" />
+    <Content Include="Libs\JetBrains.Annotations.xml" />
+    <Content Include="Libs\ManagedClient.4.dll" />
+    <Content Include="Libs\ManagedClient.4.pdb" />
+    <Content Include="Libs\ManagedClient.4.xml" />
+    <Content Include="Libs\MoonSharp.Interpreter.dll" />
+    <Content Include="Libs\MoonSharp.Interpreter.pdb" />
+    <Content Include="Libs\MoonSharp.Interpreter.xml" />
+    <Content Include="Libs\Newtonsoft.Json.dll" />
+    <Content Include="Libs\Newtonsoft.Json.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
