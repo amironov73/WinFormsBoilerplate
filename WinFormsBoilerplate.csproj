@@ -37,145 +37,190 @@
   <ItemGroup>
     <Reference Include="Antlr4.Runtime.net40">
       <HintPath>Libs\Antlr4.Runtime.net40.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="BLToolkit.4">
       <HintPath>Libs\BLToolkit.4.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.BonusSkins.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.BonusSkins.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Charts.Designer.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.Charts.Designer.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Charts.v15.1.Core, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.Charts.v15.1.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.CodeConverter.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.CodeConverter.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.CodeParser.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.CodeParser.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Data.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.Data.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.DataAccess.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.DataAccess.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.DataAccess.v15.1.UI, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.DataAccess.v15.1.UI.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Docs.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.Docs.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Images.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.Images.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Office.v15.1.Core, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.Office.v15.1.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Pdf.v15.1.Core, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.Pdf.v15.1.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.PivotGrid.v15.1.Core, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.PivotGrid.v15.1.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Printing.v15.1.Core, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.Printing.v15.1.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v15.1.Core, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.RichEdit.v15.1.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.SpellChecker.v15.1.Core, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.SpellChecker.v15.1.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Spreadsheet.v15.1.Core, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.Spreadsheet.v15.1.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Utils.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.Utils.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Utils.v15.1.UI, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.Utils.v15.1.UI.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraBars.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraBars.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraCharts.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraCharts.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraCharts.v15.1.Extensions, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraCharts.v15.1.Extensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraCharts.v15.1.UI, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraCharts.v15.1.UI.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraEditors.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraEditors.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraGrid.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraGrid.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" >
+      <HintPath>DevExpress\DevExpress.XtraLayout.v15.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="DevExpress.XtraMap.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraMap.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraNavBar.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraNavBar.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraPdfViewer.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraPdfViewer.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraPrinting.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraPrinting.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraReports.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v15.1.Extensions, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraReports.v15.1.Extensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraRichEdit.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraRichEdit.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraRichEdit.v15.1.Extensions, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraRichEdit.v15.1.Extensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraSpellChecker.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraSpellChecker.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraSpreadsheet.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraSpreadsheet.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraVerticalGrid.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraVerticalGrid.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.XtraWizard.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraWizard.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="IrbisUI">
       <HintPath>Libs\IrbisUI.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="JetBrains.Annotations">
       <HintPath>Libs\JetBrains.Annotations.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="ManagedClient.4">
       <HintPath>Libs\ManagedClient.4.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="MoonSharp.Interpreter">
       <HintPath>Libs\MoonSharp.Interpreter.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Libs\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp">
-      <Private>True</Private>
-    </Reference>
+    <Reference Include="Microsoft.CSharp"/>
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
