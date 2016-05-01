@@ -91,6 +91,10 @@
       <HintPath>DevExpress\DevExpress.Pdf.v15.1.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="DevExpress.Pdf.v15.1.Drawing, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.Pdf.v15.1.Drawing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="DevExpress.PivotGrid.v15.1.Core, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <HintPath>DevExpress\DevExpress.PivotGrid.v15.1.Core.dll</HintPath>
       <Private>True</Private>
@@ -101,6 +105,10 @@
     </Reference>
     <Reference Include="DevExpress.RichEdit.v15.1.Core, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <HintPath>DevExpress\DevExpress.RichEdit.v15.1.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v15.1.Core, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.Sparkline.v15.1.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.SpellChecker.v15.1.Core, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
@@ -143,7 +151,7 @@
       <HintPath>DevExpress\DevExpress.XtraGrid.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" >
+    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <HintPath>DevExpress\DevExpress.XtraLayout.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
@@ -187,6 +195,10 @@
       <HintPath>DevExpress\DevExpress.XtraSpreadsheet.v15.1.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>DevExpress\DevExpress.XtraTreeList.v15.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="DevExpress.XtraVerticalGrid.v15.1, Version=15.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <HintPath>DevExpress\DevExpress.XtraVerticalGrid.v15.1.dll</HintPath>
       <Private>True</Private>
@@ -220,7 +232,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp"/>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
@@ -237,6 +249,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -251,6 +264,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="App.config" />
+    <Content Include="Dictionaries\en_US.aff" />
+    <Content Include="Dictionaries\en_US.dic" />
+    <Content Include="Dictionaries\hyph_en_US.dic" />
+    <Content Include="Dictionaries\hyph_ru_RU.dic" />
+    <Content Include="Dictionaries\russian_english.aff" />
+    <Content Include="Dictionaries\russian_english.dic" />
+    <Content Include="Dictionaries\ru_RU.aff" />
+    <Content Include="Dictionaries\ru_RU.dic" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

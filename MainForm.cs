@@ -147,6 +147,28 @@ namespace WinFormsBoilerplate
 
         #region Public methods
 
+        /// <summary>
+        /// Turns on marquee on progress bar.
+        /// </summary>
+        public void StartProgress()
+        {
+            this.InvokeIfRequired
+                (
+                    () => _progressBar.Style = ProgressBarStyle.Marquee
+                );
+        }
+
+        /// <summary>
+        /// Turns off marquee.
+        /// </summary>
+        public void StopProgress()
+        {
+            this.InvokeIfRequired
+                (
+                    () => _progressBar.Style = ProgressBarStyle.Blocks
+                );
+        }
+
         public void WriteDelimiter()
         {
             if (Output != null)

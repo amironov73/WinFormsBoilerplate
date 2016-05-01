@@ -33,6 +33,7 @@
             this._logBox = new IrbisUI.LogTextBox(this.components);
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
+            this._progressBar = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             this.SuspendLayout();
@@ -55,7 +56,7 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(764, 424);
+            this.layoutControl1.Size = new System.Drawing.Size(764, 401);
             this.layoutControl1.TabIndex = 1;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -65,8 +66,16 @@
             this.layoutControlGroup1.GroupBordersVisible = false;
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "layoutControlGroup1";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(764, 424);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(764, 401);
             this.layoutControlGroup1.TextVisible = false;
+            // 
+            // _progressBar
+            // 
+            this._progressBar.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this._progressBar.Location = new System.Drawing.Point(0, 401);
+            this._progressBar.Name = "_progressBar";
+            this._progressBar.Size = new System.Drawing.Size(764, 23);
+            this._progressBar.TabIndex = 2;
             // 
             // MainForm
             // 
@@ -74,6 +83,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(764, 542);
             this.Controls.Add(this.layoutControl1);
+            this.Controls.Add(this._progressBar);
             this.Controls.Add(this._logBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
@@ -92,6 +102,7 @@
         private IrbisUI.LogTextBox _logBox;
         private DevExpress.XtraLayout.LayoutControl layoutControl1;
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup1;
+        private System.Windows.Forms.ProgressBar _progressBar;
     }
 }
 
